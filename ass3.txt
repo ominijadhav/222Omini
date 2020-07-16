@@ -1,0 +1,14 @@
+
+a=input("Enter the No1 :-")
+b=input("Enter the No2:-")
+a=int(a)
+b=int(b)
+
+c=a+b
+print("Sum of Two No's : ",c)
+
+c=a-b
+print("Difference of Two No's : ",c)
+
+c=a*b
+print("Multiplication of Two No's : ",c)

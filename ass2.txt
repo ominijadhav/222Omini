@@ -1,0 +1,28 @@
+
+mylist=[]
+mylist.insert(0,4)
+mylist.insert(1,7)
+mylist.insert(2,9)
+mylist.insert(3,5)
+mylist.insert(4,2)
+
+
+print(mylist)
+
+#Removing First Element
+mylist.remove(4)
+print(mylist)
+
+#Removing last Element
+mylist.append(6)
+print(mylist)
+
+mylist.sort()
+print("Sorted List is :",mylist)
+
+
+print("Poped Element is :",mylist.pop(4))
+print(mylist)
+
+mylist.reverse()
+print("Reversed List is :",mylist)
